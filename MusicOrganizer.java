@@ -10,7 +10,27 @@ public class MusicOrganizer
 {
     // An ArrayList for storing the file names of music files.
     private ArrayList<String> files;
-        
+    /*
+     * question 1
+     */
+    public void checkIndex(int index){
+        if (index <= 0 || index >= files.size()){
+            System.out.println("Error - indexNumber should be between 0 and " + (files.size()));
+        }
+    }
+    
+    /*
+     * question 2
+     */
+    public boolean validIndex(int index){
+        if (index <= 0 || index >= files.size()){
+            return false;
+        }
+        else{
+            return true;
+        }
+    }
+      
     /**
      * Create a MusicOrganizer
      */
