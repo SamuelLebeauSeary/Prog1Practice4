@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=MusicOrganizer
+comment0.text=\r\n\ A\ class\ to\ hold\ details\ of\ audio\ files.\r\n\ \r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\r\n\ @version\ 7.0\r\n
+comment1.params=index
+comment1.target=void\ checkIndex(int)
+comment1.text=\r\n\ question\ 1\r\n
+comment2.params=index
+comment2.target=boolean\ validIndex(int)
+comment2.text=\r\n\ question\ 2\r\n
+comment3.params=
+comment3.target=MusicOrganizer()
+comment3.text=\r\n\ Create\ a\ MusicOrganizer\r\n
+comment4.params=filename
+comment4.target=void\ addFile(java.lang.String)
+comment4.text=\r\n\ Add\ a\ file\ to\ the\ collection.\r\n\ @param\ filename\ The\ file\ to\ be\ added.\r\n
+comment5.params=
+comment5.target=int\ getNumberOfFiles()
+comment5.text=\r\n\ Return\ the\ number\ of\ files\ in\ the\ collection.\r\n\ @return\ The\ number\ of\ files\ in\ the\ collection.\r\n
+comment6.params=index
+comment6.target=void\ listFile(int)
+comment6.text=\r\n\ List\ a\ file\ from\ the\ collection.\r\n\ @param\ index\ The\ index\ of\ the\ file\ to\ be\ listed.\r\n
+comment7.params=index
+comment7.target=void\ removeFile(int)
+comment7.text=\r\n\ Remove\ a\ file\ from\ the\ collection.\r\n\ @param\ index\ The\ index\ of\ the\ file\ to\ be\ removed.\r\n
+numComments=8
